@@ -1,0 +1,25 @@
+.sub-header {
+    background-image: url(../../bar-one/bar-final-assets/contact-header-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .sub-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            h1 {
+                font-family: 'Chathura', 'sans-serif';
+                font-weight: 700;
+                font-size: 8.32rem;
+                letter-spacing: 2.6px;
+                color: $off-white;
+            }
+        }
+    }
+}

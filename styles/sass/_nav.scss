@@ -1,0 +1,28 @@
+$dusty-orange: #FF8327;
+$off-white: #FFFFFF;
+
+nav {
+    .nav-bar-one {
+        color: $off-white;
+        font-family: 'Tulpen One', 'cursive';
+        font-weight: 400;
+        font-size: 7rem;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li {
+            font-family: 'Chathura', 'sans-serif';
+            font-weight: 700;
+            font-size: 3.8rem;
+            line-height: 39px;
+            letter-spacing: 1.9px;
+            padding: 50px;
+            a {
+                color: $off-white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

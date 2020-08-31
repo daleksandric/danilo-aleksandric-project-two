@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    input[type=text], input[type=email] {
+        width: 48%;
+        padding: 15px;
+        border-bottom: 1px solid $off-white;
+        font-family: 'Chathura', 'sans-serif';
+        letter-spacing: 1.9px;
+        font-size: 2.5rem;
+        color: $off-white;
+        &::placeholder {
+            color: $off-white;
+        }
+    }
+    textarea {
+        width: 100%;
+        margin-top: 40px;
+        border: 1px solid $off-white;
+        padding: 30px;
+        font-size: 2.5rem;
+        font-family: 'Chathura', 'sans-serif';
+        line-height: 30px;
+        letter-spacing: 1.9px;
+        color: $off-white;
+        &::placeholder {
+            color: $off-white;
+        }
+    }
+    button[type=submit] {
+        width: 100%;
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+}
